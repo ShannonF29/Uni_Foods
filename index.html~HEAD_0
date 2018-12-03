@@ -6,7 +6,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <title>Food Hacks</title>
+    <title>Uni Foods</title>
     <style>
       body {
         text-align: center;
@@ -17,7 +17,7 @@
     </style>
   </head>
   <body>
-    <h1>Food Hacks</h1>
+    <h1>Uni Foods</h1>
     <p>The cooking way for students!</p>
     <p>Find the easiest and tastiest recipes right here</p>
     <div class="container">
@@ -28,13 +28,12 @@
         </div>
     <div class="col-sm">
       <p> NOODLES AND EGG </p>
-      <img src= indomie-salted-egg-flavour-indonesia.jpg alt= "indomie salted egg" height="250" width="250">
+      <img src= "indomie2-900x900.jpg" alt= "indomie salted egg" height="250" width="250">
     </div>
     <div class="col-sm">
-      Third meal
+      <p> SPAGHETTI BOLOGNESE </p>
+      <img src="the-best-sphagetti-bolognese.jpg" alt= "sphagetti bolognese" height="250" width="250"
     </div>
-  </div>
-</div>
 <div>
   <p>Subscribe for updates!</p>
   <input type="email" placeholder="Your email">

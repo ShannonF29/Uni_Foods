@@ -4,3 +4,11 @@ body {
     color: white;
     font-family; helvetica;
   }
+*#recipies{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: stretch;
+}

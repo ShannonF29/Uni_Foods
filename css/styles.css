@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background: lightblue;
+    color: white;
+    font-family; helvetica;
+  }
+*#header{
+  background-color: #ffb366
+}
+*#recipies{
+  display: inline-flex;
+  height: 800px
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: stretch;
+}
+*#food{
+  margin: auto;
+  background-color: #ffb366;
+}

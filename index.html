@@ -2,45 +2,132 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <title>Food Hacks</title>
-    <style>
-      body {
-        text-align: center;
-        background: black;
-        color: white;
-        font-family; helvetica;
-      }
-    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Uni Foods</title>
   </head>
   <body>
-    <h1>Food Hacks</h1>
+    <h1>Uni Foods</h1>
     <p>The cooking way for students!</p>
-    <p>Find the easiest and tastiest recipes right here</p>
-    <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+      </ol>
+    </nav>
+    <div class="container" id="recipies">
       <div class="row">
-        <div class="col-sm">
-          <p>CHERRY TOMATO PASTA</p>
-          <img src="img/Cherry_tomato_pasta.jpg" alt="Cherry tomato pasta" height="250" width="250">
+        <div class="col-sm" id="food">
+          <h3>CHERRY TOMATO PASTA</h3>
+          <!-- <img src="img/Cherry_tomato_pasta.jpg" alt="Cherry tomato pasta" height="250" width="250"> -->
+          <!-- <img src="img/Cherry_tomato_pasta.jpg" alt="Cherry tomato pasta" class="img-fluid" alt="responsive image" class="img-thumbnail" -->
+          <!-- <img src="img/Cherry_tomato_pasta.jpg" class="rounded float-left" class="img-fluid" alt="responsive image"> -->
+          <img src="img/Cherry_tomato_pasta.jpg" class="img-fluid" alt="responsive image">
         </div>
-    <div class="col-sm">
-      <p> NOODLES AND EGG </p>
-      <img src= indomie-salted-egg-flavour-indonesia.jpg alt= "indomie salted egg" height="250" width="250">
-      <p> Cheap and easy meal to cook, it shouldnt be more than three pounds. You can buy a packet of noodles from a local food store. You can also buy eggs from the store which you can get for less than two pounds. To make noodles you would need to put it in boiling water on the stove and cook for five to seven minutes. When the water has dried out that means the noodles has cooked. Secondly to cook eggs you would need to put a full egg on the stove and bring the water up to a boiling point then turn to a simmer, put a timer on for six to seven minutes. Make sure to drain the water away once its been cooked and leave to cool down for a minute. Afterwards gentley crack the egg shell and start peeling </p>
+        <div class="col-sm" id="food">
+          <h3>NOODLES AND EGG</h3>
+          <!-- <img src="img/Indomie_salted_egg.jpg" alt= "indomie salted egg" height="250" width="250"> -->
+          <img src="img/Indomie_salted_egg.jpg" class="img-fluid" alt="responsive image">
+          <p> Cheap and easy meal to cook, it shouldnt be more than three pounds. You can buy a packet of noodles from a local food store. You can also buy eggs from the store which you can get for less than two pounds.</p>
+        </div>
+        <div class="col-sm" id="food">
+          <h3>SPAGHETTI BOLOGNESE</h3>
+          <img src="img/Spaghetti_bolognese.jpg" class="img-fluid" alt="responsive image">
+          <p> You can buy spaghetti bolognese frozen from iceland for just one pound or you could cook it from scratch.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm" id="food">
+          <h3>CHICKEN BURGER<h3>
+          <img src="img/Chicken_burger.jpg" class="img-fluid" alt="responsive image">
+          <p> You can buy chicken burgers for two pounds or more from iceland and you can buy the burger buns seperately for a pound which is very affordable for students. This is an easy meal to make under 30 minutes. </p>
+        </div>
+        <div class="col-sm" id="food">
+          <h3>BEAN BURGER</h3>
+          <p> Bean burger is very easy to make and it can be bought t a local supermarket for no less than three pounds. You can also buy the burger buns seperately for a pound. Burger bun can be made in an oven or from scartch on the stove. It shouldnt take more than 30 minutes </p>
+          <img src="img/Bean_burger.jpg" class="img-fluid" alt="responsive image">
+        </div>
+        <div class="col-sm" id="food">
+          <h3>BEEF BURGER</h3>
+          <p> Beef burgers are 2 pounds from iceland which can be easily made in an oven, it can be fryed using a frying pan and you can also barbeque the beef burgers. You will need to also buy the burger buns, however making this should not be more than 30 minutes.</p>
+          <img src="img/Beef_burger.jpg" class="img-fluid" alt="responsive image">
+        </div>
+      </div>
     </div>
-    <div class="col-sm">
-      <p> SPAGHETTI BOLOGNESE </p>
-      <img src="the-best-sphagetti-bolognese.jpg" alt= "sphagetti bolognese" height="250" width="250"
-    </div>
-  </div>
-</div>
-<div>
-  <p>Subscribe for updates!</p>
-  <input type="email" placeholder="Your email">
-  <input type="submit">
-</div>
+    <!-- <input type="email" placeholder="Your email"> -->
+    <!-- <input type="submit"> -->
+    <!-- <form>
+      <div class="form-group">
+        <label for="InputName">Name</label>
+        <input type="name" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form> -->
+    <form>
+      <div class="container" id="subscribe">
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <label class="header">
+            Subscribe for emailed recipies
+          </div>
+        </div>
+          <div class="form-group row">
+            <!-- <label for="inputName" class="col-sm-2 col-form-label">Name</label> -->
+            <div class="col-sm-10">
+              <input type="name" class="form-control" id="inputName" placeholder="Name (required)">
+            </div>
+          </div>
+        <div class="form-group row">
+          <!-- <label for="inputEmail" class="col-sm-2 col-form-label">Email</label> -->
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email (required)">
+          </div>
+        </div>
+        <div class="form-group row">
+          <!-- <div class="col-sm-2">Checkbox</div> -->
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                I would like to recieve emails from Uni Foods
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Sign up</button>
+          </div>
+        </div>
+        <style>
+        p {
+          color: rgb(255, 0, 0);
+          font-size: 15px;
+          text-align:center;
+        }
+        div class 1 {
+          width: 500px;
+          margin: auto;
+          border: 3px solid #73AD21;
+
+        }
+      </div>
+    </form>
   </body>
 </html>

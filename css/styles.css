@@ -20,3 +20,7 @@ body {
   margin: auto;
   background-color: #ffb366;
 }
+*#card-body{
+  color: black;
+  background-color: #ffb366;
+}

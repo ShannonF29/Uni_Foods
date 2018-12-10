@@ -4,6 +4,9 @@ body {
     color: white;
     font-family; helvetica;
   }
+*#header{
+  background-color: #ffb366
+}
 *#recipies{
   display: inline-flex;
   height: 800px
@@ -15,5 +18,5 @@ body {
 }
 *#food{
   margin: auto;
-  background-color: #ffb366; 
+  background-color: #ffb366;
 }
